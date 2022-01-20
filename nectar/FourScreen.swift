@@ -94,7 +94,7 @@ class FourScreen: UIViewController {
         nextButton.layer.cornerRadius = view.frame.width * 0.15
         nextButton.snp.makeConstraints { make in
             make.right.equalToSuperview().offset(view.frame.width * (-0.075))
-            make.bottom.equalTo(keyboardImage.snp.top)
+            make.bottom.equalTo(keyboardImage.snp.top).offset(view.frame.width * (-0.075))
             make.height.width.equalTo(67)
         }
     }

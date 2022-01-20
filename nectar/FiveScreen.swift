@@ -49,7 +49,7 @@ class FiveScreen: UIViewController {
         let view = UILabel()
         view.textColor = UIColor(red: 83/255, green: 177/255, blue: 117/255, alpha: 1)
         view.font = .systemFont(ofSize: 18)
-        view.text = "Resend"
+        view.text = "Resend Code"
         return view
     }()
     

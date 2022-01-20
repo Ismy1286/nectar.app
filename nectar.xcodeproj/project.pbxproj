@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A985F0ABD413828625D77D /* Pods_nectar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78C214C0A50E36FF19EA259 /* Pods_nectar.framework */; };
+		CE3C04102797BBCE00148EE9 /* CustonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C040F2797BBCE00148EE9 /* CustonButton.swift */; };
+		CE3C04122797E1B000148EE9 /* ThreeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C04112797E1B000148EE9 /* ThreeScreen.swift */; };
+		CE3C04142797F47C00148EE9 /* FourScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C04132797F47C00148EE9 /* FourScreen.swift */; };
+		CE3C04162798000900148EE9 /* FiveScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C04152798000900148EE9 /* FiveScreen.swift */; };
+		CE3C0418279804D900148EE9 /* SixScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C0417279804D900148EE9 /* SixScreen.swift */; };
 		CE3FFDFD2786B70A00697782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FFDFC2786B70A00697782 /* AppDelegate.swift */; };
 		CE3FFDFF2786B70A00697782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FFDFE2786B70A00697782 /* SceneDelegate.swift */; };
 		CE3FFE012786B70A00697782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FFE002786B70A00697782 /* ViewController.swift */; };
 		CE3FFE042786B70A00697782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFE022786B70A00697782 /* Main.storyboard */; };
 		CE3FFE062786B70C00697782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFE052786B70C00697782 /* Assets.xcassets */; };
 		CE3FFE092786B70C00697782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFE072786B70C00697782 /* LaunchScreen.storyboard */; };
+		CE3FFE112786D01800697782 /* TwoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FFE102786D01800697782 /* TwoScreen.swift */; };
+		CE46A6AB279851800054DAE8 /* SevenScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46A6AA279851800054DAE8 /* SevenScreen.swift */; };
+		CE46A6AD279851B10054DAE8 /* EightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46A6AC279851B10054DAE8 /* EightScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F1B11D3E3683771E191A3F /* Pods-nectar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nectar.release.xcconfig"; path = "Target Support Files/Pods-nectar/Pods-nectar.release.xcconfig"; sourceTree = "<group>"; };
+		10BF6BFA9772C82B0083DC3C /* Pods-nectar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nectar.debug.xcconfig"; path = "Target Support Files/Pods-nectar/Pods-nectar.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3C040F2797BBCE00148EE9 /* CustonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonButton.swift; sourceTree = "<group>"; };
+		CE3C04112797E1B000148EE9 /* ThreeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeScreen.swift; sourceTree = "<group>"; };
+		CE3C04132797F47C00148EE9 /* FourScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourScreen.swift; sourceTree = "<group>"; };
+		CE3C04152798000900148EE9 /* FiveScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveScreen.swift; sourceTree = "<group>"; };
+		CE3C0417279804D900148EE9 /* SixScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixScreen.swift; sourceTree = "<group>"; };
 		CE3FFDF92786B70A00697782 /* nectar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nectar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3FFDFC2786B70A00697782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3FFDFE2786B70A00697782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,10 @@
 		CE3FFE052786B70C00697782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3FFE082786B70C00697782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3FFE0A2786B70C00697782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3FFE102786D01800697782 /* TwoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoScreen.swift; sourceTree = "<group>"; };
+		CE46A6AA279851800054DAE8 /* SevenScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenScreen.swift; sourceTree = "<group>"; };
+		CE46A6AC279851B10054DAE8 /* EightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightScreen.swift; sourceTree = "<group>"; };
+		D78C214C0A50E36FF19EA259 /* Pods_nectar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nectar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A985F0ABD413828625D77D /* Pods_nectar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A49CF7823D49097E0F37EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10BF6BFA9772C82B0083DC3C /* Pods-nectar.debug.xcconfig */,
+				00F1B11D3E3683771E191A3F /* Pods-nectar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE3FFDF02786B70A00697782 = {
 			isa = PBXGroup;
 			children = (
 				CE3FFDFB2786B70A00697782 /* nectar */,
 				CE3FFDFA2786B70A00697782 /* Products */,
+				8A49CF7823D49097E0F37EDA /* Pods */,
+				DA8046BDE5FE58441BB283BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +95,24 @@
 				CE3FFE052786B70C00697782 /* Assets.xcassets */,
 				CE3FFE072786B70C00697782 /* LaunchScreen.storyboard */,
 				CE3FFE0A2786B70C00697782 /* Info.plist */,
+				CE3FFE102786D01800697782 /* TwoScreen.swift */,
+				CE3C040F2797BBCE00148EE9 /* CustonButton.swift */,
+				CE3C04112797E1B000148EE9 /* ThreeScreen.swift */,
+				CE3C04132797F47C00148EE9 /* FourScreen.swift */,
+				CE3C04152798000900148EE9 /* FiveScreen.swift */,
+				CE3C0417279804D900148EE9 /* SixScreen.swift */,
+				CE46A6AA279851800054DAE8 /* SevenScreen.swift */,
+				CE46A6AC279851B10054DAE8 /* EightScreen.swift */,
 			);
 			path = nectar;
+			sourceTree = "<group>";
+		};
+		DA8046BDE5FE58441BB283BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D78C214C0A50E36FF19EA259 /* Pods_nectar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3FFE0D2786B70C00697782 /* Build configuration list for PBXNativeTarget "nectar" */;
 			buildPhases = (
+				665FC954525D543F14F383B9 /* [CP] Check Pods Manifest.lock */,
 				CE3FFDF52786B70A00697782 /* Sources */,
 				CE3FFDF62786B70A00697782 /* Frameworks */,
 				CE3FFDF72786B70A00697782 /* Resources */,
+				32348E6B949223411E4BB925 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +182,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32348E6B949223411E4BB925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nectar/Pods-nectar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nectar/Pods-nectar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nectar/Pods-nectar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665FC954525D543F14F383B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nectar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE3FFDF52786B70A00697782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3C04162798000900148EE9 /* FiveScreen.swift in Sources */,
+				CE3C0418279804D900148EE9 /* SixScreen.swift in Sources */,
 				CE3FFE012786B70A00697782 /* ViewController.swift in Sources */,
+				CE46A6AD279851B10054DAE8 /* EightScreen.swift in Sources */,
 				CE3FFDFD2786B70A00697782 /* AppDelegate.swift in Sources */,
+				CE3C04102797BBCE00148EE9 /* CustonButton.swift in Sources */,
+				CE46A6AB279851800054DAE8 /* SevenScreen.swift in Sources */,
+				CE3C04122797E1B000148EE9 /* ThreeScreen.swift in Sources */,
+				CE3C04142797F47C00148EE9 /* FourScreen.swift in Sources */,
+				CE3FFE112786D01800697782 /* TwoScreen.swift in Sources */,
 				CE3FFDFF2786B70A00697782 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +383,7 @@
 		};
 		CE3FFE0E2786B70C00697782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BF6BFA9772C82B0083DC3C /* Pods-nectar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +402,7 @@
 		};
 		CE3FFE0F2786B70C00697782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00F1B11D3E3683771E191A3F /* Pods-nectar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

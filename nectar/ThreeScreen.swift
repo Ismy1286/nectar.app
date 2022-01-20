@@ -40,18 +40,18 @@ class ThreeScreen: UIViewController {
         view.text = "Or connect with social media"
         return view
     }()
-
+    
     private lazy var googleButton: CustonButton = {
         let view = CustonButton()
         view.setImage(UIImage(named:"google"), for: .normal)
-        view.layer.cornerRadius = 15
+        view.layer.cornerRadius = 19
         return view
     }()
     
     private lazy var faceButton: CustonButton = {
         let view = CustonButton()
         view.setImage(UIImage(named:"facebook"), for: .normal)
-        view.layer.cornerRadius = 15
+        view.layer.cornerRadius = 19
         return view
     }()
     
@@ -89,20 +89,20 @@ class ThreeScreen: UIViewController {
         view.addSubview(connectLabel)
         connectLabel.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.top.equalTo(pixImage.snp.bottom).offset(view.frame.height * 0.03)
+            make.top.equalTo(pixImage.snp.bottom).offset(view.frame.height * 0.045)
         }
         view.addSubview(googleButton)
         googleButton.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.top.equalTo(connectLabel.snp.bottom).offset(view.frame.height * 0.015)
-            make.height.equalToSuperview().multipliedBy(0.15)
+            make.top.equalTo(connectLabel.snp.bottom).offset(view.frame.height * 0.06)
+            make.height.equalTo(67)
             make.width.equalToSuperview().multipliedBy(0.85)
         }
         view.addSubview(faceButton)
         faceButton.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.top.equalTo(googleButton.snp.bottom).offset(-50)
-            make.height.equalToSuperview().multipliedBy(0.15)
+            make.top.equalTo(googleButton.snp.bottom).offset(view.frame.height * 0.02)
+            make.height.equalTo(67)
             make.width.equalToSuperview().multipliedBy(0.85)
         }
     }
